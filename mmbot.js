@@ -15,7 +15,7 @@ const reqEvent = (event) => require(`./events/${event}`);
   client.on('guildMemberRemove', reqEvent('guildMemberRemove'));
   client.on('guildBanAdd', reqEvent('guildBanAdd'));
   client.on('guildBanRemove', reqEvent('guildBanRemove'));
-var token = "MzYzNjI1OTUzNzgxNjEyNTQ1.Dwkjzw.xPNpzqZCrY8H1CveD4FQPUgljpc"
+var token = "YOUR_TOKEN"
 var colors = require('colors');
 const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
